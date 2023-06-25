@@ -1,0 +1,28 @@
+.custom_align{
+    left: 100px;
+    right: 100px;
+}
+.banner_grid{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 3rem;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERY FOR SMALL SCREEN */
+
+@media screen and (max-width: 640px) {
+    .custom_align{
+        left: 10px;
+        right: 10px;
+        margin-top: 8rem; 
+    }
+    .banner_grid{
+        grid-template-columns: 1fr;
+    }
+}
