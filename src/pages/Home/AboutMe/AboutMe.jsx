@@ -3,6 +3,7 @@
 import './AboutMe.css'
 import about_me_img from '../../../assets/profile_pic.jpg'
 import resume from '../../../assets/Resume_of_Chayan_Sarker.pdf'
+import { FaDownload } from 'react-icons/fa';
 
 const AboutMe = () => {
 
@@ -25,7 +26,7 @@ const AboutMe = () => {
                         download
                     </button> */}
                     
-                    <button className='bg-cyan-500 shadow-lg rounded-full text-white font-semibold shadow-cyan-500/50 p-3'> <a download="" href={resume}>Download Resume</a></button>
+                    <button className='bg-cyan-500 shadow-lg rounded-full text-white font-semibold shadow-cyan-500/50 p-3'> <a download="" href={resume}>  <FaDownload className="inline text-2xl"></FaDownload> Download Resume</a></button>
                 </div>
                 <div>
                      <div>

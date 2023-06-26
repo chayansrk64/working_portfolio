@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button/Button";
-
+// import Button from "../../../components/Button/Button";
+import resume from '../../../assets/Resume_of_Chayan_Sarker.pdf'
+import { FaDownload } from 'react-icons/fa';
 // TODO: logo
 const Header = () => {
 
@@ -32,35 +33,15 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    {/* <a className="btn">Download CV</a>  */}
-    <Button button_text="Download CV"></Button>
+    <div className=" bg-cyan-500 shadow-lg rounded-full text-white font-semibold shadow-cyan-500/50 px-4 py-2  "><a href={resume}>  <FaDownload className="inline text-2xl"></FaDownload> <span>Resume</span></a></div>
+    {/* <Button button_text="Download CV"></Button> */}
   </div>
 </div> 
         </>
     );
 
 
-// return (
-// <nav className="flex justify-between">
-//     <div>
-//         <img src="" alt="image" />
-//     </div>
-//     <div>
-//         <ul className="flex gap-5">
-//             <li><a href="/">Home</a></li>
-//             <li><a href="/">Home</a></li>
-//             <li><a href="/">Home</a></li>
-//             <li><a href="/">Home</a></li>
-//         </ul>
-//     </div>
-//     <div>
-//         <button>Download</button>
-//     </div>
-// </nav>
-
-// )
-
-
+ 
 
 
 };
