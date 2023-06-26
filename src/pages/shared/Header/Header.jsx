@@ -7,9 +7,12 @@ const Header = () => {
 
     const navOptions = <>
     
-     <Link className="me-4 text-white font-semibold text-base"><a>Home</a></Link>
-     <Link className="me-4 text-white font-semibold text-base" to="https://drive.google.com/file/d/19vsLRS5c15Au_4qJ2QRl_N4BqFbtIJYY/view?usp=sharing"><a>Resume</a></Link>
-     <Link className="me-4 text-white font-semibold text-base"><a>Projects</a></Link>
+     <Link to="/" className="me-4 text-white font-semibold text-base">Home</Link>
+     <Link className="me-4 text-white font-semibold text-base" target="_blank" to="https://drive.google.com/file/d/19vsLRS5c15Au_4qJ2QRl_N4BqFbtIJYY/view?usp=sharing">Resume</Link>
+     <Link to="mailto:chayansrk64@gmail.com" className="me-4 text-white font-semibold text-base"  > Contact me</Link>
+
+      
+      
 
     </>
 
@@ -25,7 +28,7 @@ const Header = () => {
        {navOptions}
       </ul>
     </div>
-    <Link to="/"><a className="btn btn-ghost normal-case text-xl">srk</a></Link>
+    <Link to="/"><a className="btn btn-ghost normal-case text-white text-xl">Chayan </a></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

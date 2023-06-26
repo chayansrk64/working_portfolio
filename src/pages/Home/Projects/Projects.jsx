@@ -6,7 +6,7 @@ import next_photograph_banner from '../../../assets/next_photograph_banner.png'
 
 const Projects = () => {
     return (
-        <div className='py-16'>
+        <div className='py-16' id="projects">
              <SectionTitle
              heading="My Projects"
              subHeading="Here are few project that I've done"
