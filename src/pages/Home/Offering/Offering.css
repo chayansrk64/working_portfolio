@@ -7,6 +7,6 @@
     transition: transform 0.3s;
 }
 .offerring_hover:hover {
-    transform: scale(1.03);
+    transform: scale(.95);
 }
  
