@@ -15,7 +15,7 @@ const Banner = () => {
         <div className="bg-gradient-to-r relative from-cyan-500 to-blue-500 h-[600px] w-full">
 
 
-            <div className='absolute mt-60 bg-white custom_align rounded-xl'>
+            <div className='absolute mt-60 shadow-lg shadow-indigo-500/50 bg-white custom_align rounded-xl'>
                <div className='banner_grid'>
                 <div className=' m-8    '>
                     <img className='h-full rounded-xl ' src={profile_pic} alt="image" />

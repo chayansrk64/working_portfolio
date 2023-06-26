@@ -25,7 +25,7 @@ const AboutMe = () => {
                         download
                     </button> */}
                     
-                    <button> <a download="" href={resume}>Download Resume</a></button>
+                    <button className='bg-cyan-500 shadow-lg rounded-full text-white font-semibold shadow-cyan-500/50 p-3'> <a download="" href={resume}>Download Resume</a></button>
                 </div>
                 <div>
                      <div>
@@ -33,7 +33,7 @@ const AboutMe = () => {
                         <div className='uppercase'><p>junior front-end developer</p></div>
                         <div><h2 className='uppercase text-3xl py-4 font-bold'>Chayan sarker</h2></div>
                         <p>As a Front-end developer I always try to demonstrate expertise in collaborating with teams to deliver exceptional
-user experiences with my skills, <span className='font-bold'>React js, Node js, Express js, mongoDB, Git & Github, Api, Debugging ,</span> and other technologies.</p>
+                            user experiences with my skills, <span className='font-bold'>React js, Node js, Express js, mongoDB, Git & Github, Api, Debugging ,</span> and other technologies.</p>
                      </div>
                 </div>
                 <div className=''>
