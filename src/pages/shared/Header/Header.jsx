@@ -6,9 +6,9 @@ const Header = () => {
 
     const navOptions = <>
     
-     <Link className="me-4"><a>Home</a></Link>
-     <Link className="me-4" to="https://drive.google.com/file/d/19vsLRS5c15Au_4qJ2QRl_N4BqFbtIJYY/view?usp=sharing"><a>Resume</a></Link>
-     <Link className="me-4"><a>Projects</a></Link>
+     <Link className="me-4 text-white font-semibold text-base"><a>Home</a></Link>
+     <Link className="me-4 text-white font-semibold text-base" to="https://drive.google.com/file/d/19vsLRS5c15Au_4qJ2QRl_N4BqFbtIJYY/view?usp=sharing"><a>Resume</a></Link>
+     <Link className="me-4 text-white font-semibold text-base"><a>Projects</a></Link>
 
     </>
 

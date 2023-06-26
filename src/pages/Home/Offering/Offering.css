@@ -1,0 +1,12 @@
+.offering_section_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+.offerring_hover{
+    transition: transform 0.3s;
+}
+.offerring_hover:hover {
+    transform: scale(1.03);
+}
+ 

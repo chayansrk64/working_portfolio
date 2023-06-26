@@ -32,7 +32,7 @@ const AboutMe = () => {
                         <h3 className='  text-2xl text-center pb-10 font-bold'>About Me</h3>
                         <div className='uppercase'><p>junior front-end developer</p></div>
                         <div><h2 className='uppercase text-3xl py-4 font-bold'>Chayan sarker</h2></div>
-                        <p>As a Front-end developer I always try to demonstrate expertise in collaborating with teams to deliver exceptional
+                        <p className='text-white text-lg'>As a Front-end developer I always try to demonstrate expertise in collaborating with teams to deliver exceptional
                             user experiences with my skills, <span className='font-bold'>React js, Node js, Express js, mongoDB, Git & Github, Api, Debugging ,</span> and other technologies.</p>
                      </div>
                 </div>
