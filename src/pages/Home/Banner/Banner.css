@@ -23,4 +23,17 @@
     .banner_grid{
         grid-template-columns: 1fr;
     }
+
+
+    div p {
+        font-size: 14px !important;
+      }
+    div h1 {
+        font-size: 2.2rem !important;
+        
+    }
+    div h3 {
+        font-size: 1rem !important;
+    }
+
 }

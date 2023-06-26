@@ -17,7 +17,7 @@ const Banner = () => {
 
             <div className='absolute mt-60 bg-white custom_align rounded-xl'>
                <div className='banner_grid'>
-                <div className=' m-8 h-[600px]  '>
+                <div className=' m-8    '>
                     <img className='h-full rounded-xl ' src={profile_pic} alt="image" />
                 </div>
                 <div className='p-10'>
@@ -25,7 +25,8 @@ const Banner = () => {
                     <h1 className='text-6xl uppercase font-bold text-[#222222] mb-3'>Chayan Sarker</h1>
                     <h3 className='text-2xl uppercase text-[#222222] mb-3'>junor front-end developer</h3>
                     <p className='text-[#777777] text-lg mb-3'>
-                        You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)
+                        As a junior front-end developer I am adapting new technologies day by day, and trying to implemented them
+                        in my projects.
                     </p>
                     <p className='text-[#777777] text-lg flex items-center gap-4 mb-2'>  <span className='text-2xl text-[#766dff]'><FaRegCalendarAlt /></span>  {moment().format("MMM Do YY")}</p>
                     <p className='text-[#777777] text-lg flex items-center gap-4 mb-2'>  <span className='text-2xl text-[#766dff]'><FaPhone /></span>  +8801621-269500</p>
