@@ -20,7 +20,7 @@ const Projects = () => {
         <div className="card card-compact   bg-base-100 shadow-xl">
         <figure><img src={best_chef_banner} alt="Shoes" /></figure>
         <div className="card-body">
-            <h2 className="card-title">Best Chef || A website of Best Chefs </h2>
+            <h3 className="card-title">Best Chef || A website of Best Chefs </h3>
             <p>This website is about best Chefs in Italy and some best foods are represented in this website throughout the recipes </p>
             <p className='font-semibold'> Technologies used in this project: </p>
              <p className='font-semibold'>html | react bootstrap | javascript | react js | firebase and so on. </p>
@@ -37,7 +37,7 @@ const Projects = () => {
         <div className="card card-compact   bg-base-100 shadow-xl">
         <figure><img src={toy_kid_banner} alt="Shoes" /></figure>
         <div className="card-body">
-            <h2 className="card-title">PlayKid || A website of kids playing cars </h2>
+            <h3 className="card-title">PlayKid || A website of kids playing cars </h3>
             <p>This website represent the toys including cars, bus, truck etc. There are different categoris toy cars. </p>
             <p className='font-semibold'> Technologies used in this project: </p>
              <p className='font-semibold'>html | react bootstrap | javascript | react js | firebase || authentication and so on </p>
@@ -55,7 +55,7 @@ const Projects = () => {
         <div className="card card-compact   bg-base-100 shadow-xl">
         <figure><img src={next_photograph_banner} alt="Shoes" /></figure>
         <div className="card-body">
-            <h2 className="card-title">Next Photograph || A website of photography campaign school </h2>
+            <h3 className="card-title">Next Photograph || A website of photography campaign school </h3>
             <p>This website is about a school where students can learn about photography. </p>
             <p className='font-semibold'> Technologies used in this project: </p>
              <p className='font-semibold'>Firebase |

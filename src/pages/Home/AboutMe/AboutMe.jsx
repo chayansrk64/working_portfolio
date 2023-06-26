@@ -16,7 +16,7 @@ const AboutMe = () => {
 
 
     return (
-        <div className="pt-80 custom_padding bg-[#F9F9FF] text-white">
+        <div className="pt-96 custom_padding bg-[#F9F9FF] text-white">
            
            <div className="about_me_container bg-gradient-to-r relative from-blue-500 to-cyan-500 py-10">
                 <div className="mx-auto">
@@ -26,11 +26,11 @@ const AboutMe = () => {
                         download
                     </button> */}
                     
-                    <button className='bg-cyan-500 shadow-lg rounded-full text-white font-semibold shadow-cyan-500/50 p-3'> <a download="" href={resume}>  <FaDownload className="inline text-2xl"></FaDownload> Download Resume</a></button>
+                    <button className=' border-2 text-white font-semibold shadow-cyan-500/50 p-3'> <a download="" href={resume}>  <FaDownload className="inline text-2xl"></FaDownload> Download Resume</a></button>
                 </div>
-                <div>
-                     <div>
-                        <h3 className='  text-2xl text-center pb-10 font-bold'>About Me</h3>
+                <div className='py-10'>
+                     <div className='px-2'>
+                        {/* <h3 className='  text-2xl text-center pb-10 font-bold'>About Me</h3> */}
                         <div className='uppercase'><p>junior front-end developer</p></div>
                         <div><h2 className='uppercase text-3xl py-4 font-bold'>Chayan sarker</h2></div>
                         <p className='text-white text-lg'>As a Front-end developer I always try to demonstrate expertise in collaborating with teams to deliver exceptional
