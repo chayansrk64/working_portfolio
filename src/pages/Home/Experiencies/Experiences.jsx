@@ -1,8 +1,11 @@
+import { Fade } from 'react-awesome-reveal';
 import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 import './Experiences.css'
+
 const Experiences = () => {
     return (
-        <div className="py-10">
+       <Fade direction='left'>
+         <div className="py-10">
              <SectionTitle
              heading="My Experiences"
              subHeading="I've adapted these skills and also every single day I'm going to explore new technologies"
@@ -46,6 +49,7 @@ const Experiences = () => {
                 </div>
             </div>
         </div>
+       </Fade>
     );
 };
 

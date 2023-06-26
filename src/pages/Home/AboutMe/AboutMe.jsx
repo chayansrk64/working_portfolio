@@ -16,7 +16,8 @@ const AboutMe = () => {
 
 
     return (
-        <div className="pt-96 custom_padding bg-[#F9F9FF] text-white">
+       
+         <div className="pt-96 custom_padding bg-[#F9F9FF] text-white">
            
            <div className="about_me_container bg-gradient-to-r relative from-blue-500 to-cyan-500 py-10">
                 <div className="mx-auto">
@@ -42,6 +43,7 @@ const AboutMe = () => {
                 </div>
            </div>
         </div>
+      
     );
 };
 
