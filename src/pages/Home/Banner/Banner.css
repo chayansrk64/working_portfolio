@@ -8,6 +8,11 @@
     gap: 2rem;
 }
 
+.bg_texture{
+    background-image: url('bg_texture.jpg');
+    background-size: cover;
+}
+
  
 
 

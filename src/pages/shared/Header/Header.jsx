@@ -7,9 +7,9 @@ const Header = () => {
 
     const navOptions = <>
     
-     <Link to="/" className="me-4 text-white font-semibold text-base">Home</Link>
-     <Link className="me-4 text-white font-semibold text-base" target="_blank" to="https://drive.google.com/file/d/19vsLRS5c15Au_4qJ2QRl_N4BqFbtIJYY/view?usp=sharing">Resume</Link>
-     <Link to="mailto:chayansrk64@gmail.com" className="me-4 text-white font-semibold text-base"  > Contact me</Link>
+     <Link to="/" className="me-4 text-black font-semibold text-base">Home</Link>
+     <Link className="me-4 text-black font-semibold text-base" target="_blank" to="https://drive.google.com/file/d/19vsLRS5c15Au_4qJ2QRl_N4BqFbtIJYY/view?usp=sharing">Resume</Link>
+     <Link to="mailto:chayansrk64@gmail.com" className="me-4 text-black font-semibold text-base"  > Contact me</Link>
 
       
       
@@ -18,7 +18,7 @@ const Header = () => {
 
     return (
         <>
-        <div className="navbar fixed z-10 bg-opacity-60  max-w-screen-xl mx-auto bg-base-300 ">
+        <div className="navbar fixed z-10 bg-opacity-90  max-w-screen-xl mx-auto bg-base-300 ">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -28,7 +28,7 @@ const Header = () => {
        {navOptions}
       </ul>
     </div>
-    <Link to="/"><a className="btn btn-ghost normal-case text-white text-xl">Chayan </a></Link>
+    <Link to="/"><a className="btn btn-ghost normal-case text-black text-xl">Chayan </a></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -36,7 +36,7 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <div className=" border-2 text-white font-semibold shadow-cyan-500/50 px-4 py-2  "><a href={resume}>  <FaDownload className="inline text-2xl"></FaDownload> <span>Resume</span></a></div>
+    <div className=" border-2 border-black text-black font-semibold shadow-cyan-500/50 px-4 py-2  "><a href={resume}>  <FaDownload className="inline text-2xl"></FaDownload> <span>Resume</span></a></div>
     {/* <Button button_text="Download CV"></Button> */}
   </div>
 </div> 
